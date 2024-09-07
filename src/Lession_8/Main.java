@@ -3,8 +3,8 @@ import static Lession_8.EmployeeArray.createArray;
 
 public class Main {
     public static void main(String[] args) {
-        Employee unknownEmply = new Employee();
-        unknownEmply.printData();
+        Employee unknownEmployee = new Employee();
+        unknownEmployee.printData();
         System.out.println();
         createArray();
         Park.Attraction parkAddAttrn = new Park.Attraction(
