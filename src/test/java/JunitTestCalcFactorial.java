@@ -8,7 +8,7 @@ import static org.junit.jupiter.api.Assertions.assertThrows;
 public class JunitTestCalcFactorial {
 
     @Test
-    @DisplayName("Проверка позитивного значения (5)")
+    @DisplayName("Проверка позитивного значения (3)")
     public void positiveSimpleTest() {
         assertEquals(6, CalcFactorial.factorial(3));
     }
