@@ -2,9 +2,9 @@ import org.testng.Assert;
 import org.testng.annotations.Test;
 
 public class TestNGCalcFactorial {
-    @Test(description = "Проверка позитивного значения (5)")
+    @Test(description = "Проверка позитивного значения (3)")
     public void positiveSimpleTest() {
-        Assert.assertEquals(120, CalcFactorial.factorial(5));
+        Assert.assertEquals(6, CalcFactorial.factorial(3));
     }
 
     @Test(description = "Проверка нуля")
