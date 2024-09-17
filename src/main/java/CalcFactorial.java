@@ -1,5 +1,3 @@
-import java.math.BigInteger;
-
 public class CalcFactorial {
     public static int factorial(int n) {
         int fact = 1;
@@ -10,9 +8,5 @@ public class CalcFactorial {
             fact *= i;
         }
         return fact;
-    }
-
-    public static void main(String[] args) {
-        System.out.println(factorial(3));
     }
 }
