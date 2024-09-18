@@ -17,7 +17,7 @@ public class MtsTest {
         System.setProperty("webdriver.chrome.driver", "C:\\Users\\Никита\\IdeaProjects\\HomeworkAston\\chromedriver.exe");
         driver = new ChromeDriver();
         driver.get("http://mts.by");
-        driver.manage().timeouts().implicitlyWait(25, TimeUnit.SECONDS);
+        driver.manage().timeouts().implicitlyWait(7, TimeUnit.SECONDS);
         WebElement click = driver.findElement(By.xpath("/html/body/div[6]/main/div/div[2]/div/div[2]/button[2]"));
         click.click();
     }
