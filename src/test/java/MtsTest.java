@@ -12,12 +12,12 @@ import static org.junit.jupiter.api.Assertions.assertTrue;
 public class MtsTest {
     public static WebDriver driver;
 
-     @BeforeAll
+    @BeforeAll
     public static void init() {
         System.setProperty("webdriver.chrome.driver", "C:\\Users\\Никита\\IdeaProjects\\HomeworkAston\\chromedriver.exe");
         driver = new ChromeDriver();
         driver.get("http://mts.by");
-        driver.manage().timeouts().implicitlyWait(7, TimeUnit.SECONDS);
+        driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
         WebElement click = driver.findElement(By.xpath("/html/body/div[6]/main/div/div[2]/div/div[2]/button[2]"));
         click.click();
     }
